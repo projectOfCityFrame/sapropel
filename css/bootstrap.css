@@ -5279,7 +5279,7 @@ a.list-group-item.active > .badge,
 .thumbnail > img {
   display: block;
   height: auto;
-  max-width: 25%;
+  max-width: 35%;
   margin-right: auto;
   margin-left: auto;
 }

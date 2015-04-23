@@ -13,24 +13,13 @@
     <link href="css/jquery.countdown.css" rel="stylesheet">
     <link href="css/style_d.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/menu1.js"></script>
     <script src="js/jquery.countdown.js"></script>
-    <script src="js/script.js"></script>
-    <script type="text/javascript">
-    $(function() {
-        $("#contact-button").on('click', function(e) {
-            $('html,body').stop().animate({
-                scrollTop: $('#contact').offset().top - 50
-            }, 400);
-            e.preventDefault();
-        });
-    });
-    </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,7 +48,7 @@
             <ul class="nav navbar-nav ">
               <li><a href="#top">Главная</a></li>
               <li><a href="#utp">Преимущества</a></li>
-              <li><a href="#portfolio">Область применения</a></li>
+              <li><a href="#portfolio">Портфолио</a></li>
               <li><a href="#problems">Проблемы</a></li>
               <li><a href="#reviews">Отзывы</a></li>
               <li><a href="#contact">Оставить заявку</a></li>
@@ -87,49 +76,6 @@
           Список партнёров для работы на Спец условиях формируется уже сегодня!
           <br><b>До конца формирования списка партнеров осталось:</b></p>
           
-
-          <div id="countdown" class="countdownHolder">
-               <span class="countDays">
-                <span class="position">
-                  <span class="digit static"></span>
-               </span>
-               <span class="position">
-                <span class="digit static"></span>
-               </span>
-               </span>
-                  <span class="countDiv countDiv0"></span>
-              <span class="countHours">
-                   <span class="position">
-               <span class="digit static"></span>
-               </span>
-               <span class="position">
-               <span class="digit static"></span>
-               </span>
-               </span>
-              <span class="countDiv countDiv1"></span>
-              <span class="countMinutes">
-               <span class="position">
-               <span class="digit static"></span>
-               </span>
-               <span class="position">
-               <span class="digit static"></span>
-               </span>
-               </span>
-              <span class="countDiv countDiv2"></span>
-              <span class="countSeconds">
-               <span class="position">
-               <span class="digit static"></span>
-               </span>
-               <span class="position">
-               <span class="digit static"></span>
-               </span>
-               </span>
-          </div>
-          <p id="note"></p>
-          
-          <a id="contact-button" href="#contact" class="btn btn-primary" role="button">Оставить заявку</a>
-
-
           </div>
       </div>
     </div>
@@ -142,7 +88,7 @@
         </div>
         <div class="col-sm-6 col-md-1-5">
           <div class="thumbnail">
-            <img src="images/magnifyingglass.png" alt="...">
+            <img src="images/Search Engine Optimization.png" alt="...">
               <div class="caption">
                 <h3 class="text-center info">Сами добываем</h3>
               </div>
@@ -174,7 +120,7 @@
         </div>
         <div class="col-sm-6 col-md-1-5" >
           <div class="thumbnail">
-            <img src="images/denied.png" alt="...">
+            <img src="images/hazard.png" alt="...">
               <div class="caption">
                 <h3 class="text-center info">Наши удобрения без химикатов</h3>
                   </div>
@@ -187,7 +133,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="indent text-preview">Область применения</h1>
+                    <h1 class="indent text-preview">Портфолио</h1>
                 </div>
             </div>
             <div class="row">
@@ -198,9 +144,8 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/professija-medsestry-3.jpg" class="img-responsive" alt="">
+                        <img src="images/00053886.jpg" class="img-responsive" alt="">
                     </a>
-                    <h3 class="text-center info">В медицине</h3>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
@@ -209,9 +154,8 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/urozhay.jpg" class="img-responsive" alt="">
+                        <img src="images/00053886.jpg" class="img-responsive" alt="">
                     </a>
-                    <h3 class="text-center info">В сельском хозяйстве</h3>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
@@ -220,9 +164,8 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/HarvEast_cows.jpg" class="img-responsive" alt="">
+                        <img src="images/00053886.jpg" class="img-responsive" alt="">
                     </a>
-                    <h3 class="text-center info">В животноводстве</h3>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
@@ -231,9 +174,8 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/im_cosmetology.jpg" class="img-responsive" alt="">
+                        <img src="images/00053886.jpg" class="img-responsive" alt="">
                     </a>
-                    <h3 class="text-center info">В косметологии</h3>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
@@ -242,9 +184,8 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/1322743118_5423-M.20Pujol20i20M.20Ventosa202.jpg" class="img-responsive" alt="">
+                        <img src="images/00053886.jpg" class="img-responsive" alt="">
                     </a>
-                    <h3 class="text-center info">В строительстве</h3>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
@@ -255,7 +196,6 @@
                         </div>
                         <img src="images/00053886.jpg" class="img-responsive" alt="">
                     </a>
-                    <h3 class="text-center info">В земледелии</h3>
                 </div>
             </div>
         </div>
@@ -273,9 +213,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>В медицине</h2>
+                            <h2>Project Title</h2>
                             <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Сапропель (сапропелевая грязь (нативная)) используется в лечебной (физиотерапевтической) практике для аппликаций, разводных ванн для грязелечения.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <ul class="list-inline item-details">
                                 <li>
                                     <strong><a href=""></a>
@@ -309,9 +254,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>В сельском хозяйстве</h2>
+                            <h2>Project Title</h2>
                             <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>В сельском хозяйстве сапропель применяют как удобрение (после промерзания вода при этом отделяется, структура — сыпучее состояние). Особенно эффективно применение на кислых и лёгких песчаных и супесчаных почвах а также для увеличения содержания гумуса в почвах, (доза под зерновые культуры 30-40 т/га, под овощные, картофель и кормовые корнеплоды 60-70 т/га), для приготовления компостов.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <ul class="list-inline item-details">
                                 <li>
                                     <strong><a href=""></a>
@@ -345,9 +295,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>В животноводстве</h2>
+                            <h2>Project Title</h2>
                             <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Сапропель, богатый солями кальция, железа, фосфора, без примеси песка и бедные глиной, добавляют в рационы сельскохозяйственным животным в качестве минеральной подкормки (свиньям до 1,5 кг, коровам до 1,5 кг, курам 10-15 г в сутки).</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <ul class="list-inline item-details">
                                 <li>
                                     <strong><a href=""></a>
@@ -381,9 +336,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>В косметологии</h2>
+                            <h2>Project Title</h2>
                             <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Сапропель, богат полезными органическими элементами, которые положительно влияют на регенерацию клеток и восстанавливают все жизненные процессы.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <ul class="list-inline item-details">
                                 <li>
                                     <strong><a href=""></a>
@@ -417,9 +377,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>В строительстве</h2>
+                            <h2>Project Title</h2>
                             <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Наш продукт используют как связующий элемент и заменяют цемент, для приготовления раствора, бетона и других строительных материалов.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <ul class="list-inline item-details">
                                 <li>
                                     <strong><a href=""></a>
@@ -453,9 +418,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>В земледелии</h2>
+                            <h2>Project Title</h2>
                             <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Применение сапропеля в качестве удобрения улучшает механическую структуру почв, влагопоглотительную и влагоудерживающую способность, и аэрацию, дает увеличение в почве гумуса, активирует почвенные процессы. Сапропелевое удобрение способствует мобилизации почвенного состава, приводит к самоочищению от болезнетворных растений, грибков и вредных микроорганизмов. Минеральная часть сапропелей, содержит большое количество микроэлементов, таких как: Co, Mn, Cu, B, Br, Mo, V, Cr, Be, Ni, Ag, Sn, Pb, As, Ba, Sr, Ti, богаты витаминами группы B (B1, B12, B3, B6), E, C, D, P, каратиноидами, многими ферментами, например, каталазами, пероксидазами, редуктазами, протеазами.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <ul class="list-inline item-details">
                                 <li>
                                     <strong><a href=""></a>
@@ -487,7 +457,7 @@
     <div class="row">
   <div class="col-sm-6 col-md-1-5">
     <div class="thumbnail">
-      <img src="images/RoundIcons-Free-Set-28.png" alt="...">
+      <img data-src="holder.js/300x200" alt="...">
       <div class="caption">
         <h3 class="text-center info">Применение химических удобрений</h3>
         <p class="advantages">Отрицательно сказывается в дальнейшем на урожайность и плодородность грунта
@@ -519,7 +489,7 @@
 
   <div class="col-sm-6 col-md-1-5">
     <div class="thumbnail">
-      <img src="images/speedometer.png" alt="...">
+      <img data-src="holder.js/300x200" alt="...">
       <div class="caption">
         <h3 class="text-center info">Дорогие удобрения</h3>
         <p class="advantages">Посредники делают высокую наценку на продукт.
@@ -538,7 +508,7 @@
         <h4 class="text-modal" id="myModalLabel">В 2 раза дешевле аналогичных грунтов.</h4>
       </div>
       <div class="modal-body">
-        <p class="advantages">Мы являемся единственными производителями в Кировской области, и ближайших областях, что нам даёт возможность производить высококачественный продукт по самой низкой цене.</p>
+        <p class="advantages">Мы являемся единственными производителями в Кировской области, и ближайших облостях, что нам даёт возможность производить высококачественный продукт по самой низкой цене.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -549,7 +519,7 @@
 
   <div class="col-sm-6 col-md-1-5">
     <div class="thumbnail">
-      <img src="images/caution.png" alt="...">
+      <img data-src="holder.js/300x200" alt="...">
       <div class="caption">
         <h3 class="text-center info">Некачественный грунт</h3>
         <p class="advantages">Повышенная кислотность
@@ -580,7 +550,7 @@
 
   <div class="col-sm-6 col-md-1-5">
     <div class="thumbnail">
-      <img src="images/23.png" alt="...">
+      <img data-src="holder.js/300x200" alt="...">
       <div class="caption">
         <h3 class="text-center info">Плохие климатические условия</h3>
         <p class="advantages">Химические удобрения чаще всего не решают проблему, и не дают должного положительного эффекта в различных климатических условиях.
@@ -612,7 +582,7 @@
 
   <div class="col-sm-6 col-md-1-5">
     <div class="thumbnail">
-      <img src="images/zoomout.png" alt="...">
+      <img data-src="holder.js/300x200" alt="...">
       <div class="caption">
         <h3 class="text-center info">Малая область применения</h3>
         <p class="advantages">Химические удобрения имеют узкую область применения из за отдельных взятых компонентов для различных функций. Требует большой компетенции в использовании, и больших затрат на приобретение большого количества химикатов.</p>
@@ -707,6 +677,7 @@
             </div>
         </div>
   </section>
+
 
 
   <footer>
