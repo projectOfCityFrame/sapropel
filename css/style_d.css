@@ -17,6 +17,17 @@ header{
 #inset{
 	background: #eeeeee;
 }
+#properties{
+	background: #e26f59;
+}
+p.properties{
+	text-align: justify;
+	color: white;
+	font-family: 'Roboto';
+	letter-spacing: -1px;
+	font-size: 18px;
+
+}
 section{
 	padding-bottom: 50px;
 }

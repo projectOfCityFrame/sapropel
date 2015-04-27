@@ -31,6 +31,9 @@
         });
     });
     </script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,19 +55,19 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Валери</a>
+            <a class="navbar-brand" href="#top">Валери</a>
           </div>
           <div class="navbar-collapse collapse">
           <div id="header-nav">
             <ul class="nav navbar-nav ">
-              <li><a href="#top">Главная</a></li>
               <li><a href="#product">О продукте</a></li>
+              <li><a href="#properties">Свойства</a></li>
               <li><a href="#utp">Преимущества</a></li>
               <li><a href="#portfolio">Область применения</a></li>
               <li><a href="#problems">Проблемы</a></li>
               <li><a href="#contact">Оставить заявку</a></li>
               <li><a href="#reviews">Отзывы</a></li>
-              <li><a href="#certificates">Сертификаты</a></li>
+              <!--<li><a href="#certificates">Сертификаты</a></li>-->
             </ul>
           </div>
           <ul>
@@ -246,6 +249,40 @@
           </div>
         </div>
         
+      </div>
+    </section>
+
+    <section id="properties">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="text-center indent text-preview" style="color: white;">Свойства нашей продукции</h1>
+          </div>
+          <div class="col-md-6" style="padding-left: 15%;">
+            <div class="thumbnail" style="background: #e26f59;">
+              <div class="caption">
+              <h3 class="info text-center" style="color: white;"><b>Плодородный грунт!</b></h3>
+                <p class="properties">
+                Фактический озерный и прудовой ил – сапропель, издавна применяется как удобрение для повышения плодородия почвы. Сапропель представляет собой отложения в пресноводных водоемах, состоящие из остатков водных организмов и растений с минеральными примесями. Даже в естественном виде ил можно использовать как удобрение в саду и на огороде.</p>
+                <h3 class="info text-center" style="color: white;"><b>Полезней торфа!</b></h3>
+                <p class="properties">
+              Если сравнивать торф с сапропелем, то в последнем больше органических веществ, необходимых растениям. Еще одно важное преимущество сапропеля перед навозом и компостом – в нем отсутствуют семена сорных растений и опасные микроорганизмы. При внесении сапропеля даже по поверхности почвы, азота он теряет значительно меньше, чем навоз. И, конечно, экологически чистое удобрение сапропель не оказывает вредного воздействия на людей и животных, как, например, минеральные удобрения.
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6" style="padding-right: 15%;">
+            <div class="thumbnail" style="background: #e26f59;">
+              <div class="caption">
+              <h3 class="info text-center" style="color: white;"><b>Богат Азотом</b></h3>
+               <p class="properties">
+                Оказывается, озерный и прудовой ил богат азотом. Кроме него в состав сапропеля входят фосфор, калий, гуминовые кислоты, микроэлементы (марганец, железо, медь, бор и др.). </p>
+              <h3 class="info text-center" style="color: white;"><b>Раз и навсегда!</b></h3>
+              <p class="properties">
+              Сапропель - удобрение длительного действия, до 10 лет, и его избыток не губителен для растений. При внесении в почву он обычно выполняет роль естественного биостимулятора, активизируя развитие полезной почвенной микрофлоры. А еще сапропель хорошо удерживает влагу, что особенно важно для торфяных почв и тепличных смесей. И, наконец, что не маловажно, применение удобрения сапропель способствует уменьшению негативных последствий на почвах, загрязненных тяжелыми металлами. Это объясняется тем, что илистые отложения оттягивают на себя вредные вещества, не позволяя им переходить в растения. Эти вещества, конечно, не исчезают, просто находятся в недоступной для растений форме.</p>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -793,7 +830,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Оставить заявку</button>
+                                <button id="btnSubmit" type="submit" class="btn btn-success btn-lg">Оставить заявку</button>
                             </div>
                         </div>
                     </form>

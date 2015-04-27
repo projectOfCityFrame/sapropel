@@ -437,7 +437,7 @@ cite {
 }
 
 .text-danger:hover {
-  color: #953b39;
+  /*color: #953b39;*/
 }
 
 .text-success {
@@ -2162,7 +2162,7 @@ textarea.input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #b94a48;
 }
 
 @media (min-width: 768px) {
