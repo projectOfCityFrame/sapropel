@@ -2235,9 +2235,9 @@ textarea.input-lg {
 
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 10px 16px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: normal;
   line-height: 1.428571429;
   text-align: center;
@@ -5279,7 +5279,7 @@ a.list-group-item.active > .badge,
 .thumbnail > img {
   display: block;
   height: auto;
-  max-width: 35%;
+  max-width: 30%;
   margin-right: auto;
   margin-left: auto;
 }
