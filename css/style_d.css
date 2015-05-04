@@ -4,6 +4,9 @@ header{
 	padding-bottom: 100px;
 	background: #ffffff;
 }
+#waste{
+	background: #e26f59;
+}
 .telephone{
 	list-style: none;
 	float: right;
@@ -78,6 +81,9 @@ section{
 	text-align: left;
 	margin-left: 15%;
 }
+.cen{
+	margin: 0 auto;
+}
 .advantages{
 	font-size: 16px;
 	font-family: 'Roboto';
@@ -125,6 +131,14 @@ section{
 .skills{
 	font-family: 'Roboto';
 	font-size: 45px;
+	letter-spacing: -1px;
+	font-weight: 100;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+.skills_d{
+	font-family: 'Roboto';
+	font-size: 35px;
 	letter-spacing: -1px;
 	font-weight: 100;
 	padding-top: 20px;
