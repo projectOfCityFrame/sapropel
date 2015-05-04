@@ -81,8 +81,13 @@ section{
 	text-align: left;
 	margin-left: 15%;
 }
+<<<<<<< HEAD
 .left-text2{
 	margin-left: 50%;
+=======
+.cen{
+	margin: 0 auto;
+>>>>>>> 65aaca74f6b0b0664168c78fe6c4691876503433
 }
 .advantages{
 	font-size: 16px;
