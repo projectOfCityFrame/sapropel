@@ -1,18 +1,30 @@
 @import "http://webfonts.ru/import/roboto.css";
 header{
-	padding-top: 100px;
+	padding-top: 60px;
 	padding-bottom: 100px;
 	background: #ffffff;
 }
-.tel{
+.telephone{
 	list-style: none;
+	float: right;
 	font-family: 'Roboto';
 	font-size: 18px;
+	line-height: 50px;
 	font-weight: 400;
 	letter-spacing: -1px;
-	float: right;
-	line-height: 50px;
 	color: white;
+}
+.tel{
+	font-family: 'Roboto';
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing: -1px;
+	line-height: 50px;
+	color: black;
+	padding-bottom: 30px;
+}
+#eco{
+	background: #e26f59;
 }
 #inset{
 	background: #eeeeee;
@@ -43,6 +55,9 @@ section{
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: -1px;
+}
+.dialog-text{
+	text-align: justify;
 }
 #utp{
 	background: #eeeeee;
@@ -104,12 +119,12 @@ section{
 }
 .name{
 	font-family: 'Roboto';
-	font-size: 45px;
+	font-size: 30px;
 	letter-spacing: -1px;
 }
 .skills{
 	font-family: 'Roboto';
-	font-size: 30px;
+	font-size: 45px;
 	letter-spacing: -1px;
 	font-weight: 100;
 	padding-top: 20px;
@@ -205,15 +220,16 @@ section{
 	padding: 90px;
 }*/
 .footer-text {
+	list-style: none;
     font-family: 'Roboto';
     font-size: 17px;
     color: white;
     letter-spacing: -1px;
-    padding-top: 35px;
+    padding-top: 25px;
 }
 footer{
 	background: #424242;
-	height: 170px;
+	height: 100%;
 }
 .col-xs-1-5,
 .col-sm-1-5,
